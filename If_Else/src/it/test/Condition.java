@@ -13,7 +13,6 @@ public class Condition {
 		else
 			System.out.println("Il tuo numero è più alto di 6");
 		tastiera.close();
-		// Ciao questa è una prova
 	}
 
 }
