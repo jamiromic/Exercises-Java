@@ -8,7 +8,6 @@ public class Boolean {
 			System.out.println(valoreVero);
 		else
 			System.out.println(valoreVero);
-
 	}
 
 }

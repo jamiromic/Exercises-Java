@@ -23,7 +23,6 @@ public class Switch {
 			tastiera.close();
 		}
 		
-
 	}
 
 }

@@ -10,7 +10,6 @@ public class Boolean1 {
 		boolean valore = tastiera.nextBoolean();
 		System.out.println("Il valore inserito è : " + valore);
 		tastiera.close();
-
 	}
 
 }
