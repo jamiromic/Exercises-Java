@@ -28,7 +28,7 @@ public class Esercizio6 {
 		    }
 		
 		}
-		
+		input.close();
 		
 		
 		
