@@ -12,7 +12,6 @@ public class Esercizio3 {
 		double percentualeTeste = 0.0;
 		double percentualeCroci = 0.0;
 		
-		enum Ordini {Primo,Secondo,Terzo,Quarto,Quinto,Sesto,Settimo,Ottavo}
 		for(int i=1; i < lanciTotali+1; i++) {
 			System.out.println("Inserisci il risultato del lancio n. " + i);
 			String risultato = input.next().toLowerCase();
@@ -22,16 +21,16 @@ public class Esercizio3 {
 				numeroCroci++;
 			}
 		}
+		 
 		System.out.println("Numeri di volte Testa " + numeroTeste);
 		System.out.println("Numeri di volte Croce " + numeroCroci);
-		double numTesteDouble = numeroTeste;
 		percentualeTeste = (numeroTeste * 100) / lanciTotali;
 		System.out.println(percentualeTeste + " % " + "Risultati Testa");
-		double numCrociDouble = numeroCroci;
 		percentualeCroci = (numeroCroci * 100) / lanciTotali;
 		System.out.println(percentualeCroci + " % " + "Risultati Croce");
+		input.close();
 		
-        input.close();
+       
 	}
 
 }
