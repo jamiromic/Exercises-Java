@@ -14,7 +14,7 @@ public class cicloFor {
 	    	System.out.println("Totale Provvisorio "+ somma + ", Hai fatto " + tentativi + " tentativi");
 	    	if(somma <50) {
 	    		System.out.println("Non hai ancora raggiunto i 50");
-	    	} else 
+	    	} else
 	    		input.close();
 	    }
 	    System.out.println("Bravo, hai raggiunto quota 50");
