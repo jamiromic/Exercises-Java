@@ -7,7 +7,6 @@ public class Esercizio8 {
 		
 		for ( Mesi meseSuccessivo : Mesi.values())
 			System.out.println(meseSuccessivo);
-
 	}
 
 }

@@ -11,11 +11,8 @@ public class Conversion {
 		// Divido il totale dei centesimi per sapere quanti euro abbiamo
 		// Visto che per ogni euro abbiamo bisogno di 100 centesimi
 		int euro = centesimiTotali / 100;
-		// Recupero i centesimi scaturiti dal resto della divisione per 100
 		int centesimi = centesimiTotali % 100;
-		
-		
-
+		System.out.println("Il totale è di " + euro + "." + centesimi + " euro");
 	}
 
 }

@@ -11,7 +11,7 @@ public class Esercizio7 {
 		System.out.println("Inserire la seconda parola");
 		String parola2 = input.next();
 		System.out.println(cercaCarattere(parola1,parola2));
-
+		input.close();
 	}
 	
 	
