@@ -19,6 +19,8 @@ public class Exercise5 {
 				input.close();
 			} else {
 				System.out.println("Inserisci la tua domanda");
+				// con il seguente comando tolgo 'warning' message
+				@SuppressWarnings("unused")
 				String domanda = input.nextLine();
 				int num = (int) (Math.random() * 8) + 1;
 				switch (num) {
