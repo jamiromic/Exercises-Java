@@ -1,10 +1,32 @@
 package it.test;
 
+import java.util.Scanner;
+
 public class Esercizio9 {
 
 	public static void main(String[] args) {
-		
-
+		Scanner input = new Scanner(System.in);
+		int dimensioni;
+		String asterischi = "";
+		//Verifico Condizione
+		do {
+			System.out.println("Inserisci le dimensioni del triangolo, da 1 a 50");
+			dimensioni = input.nextInt();
+			if((dimensioni > 50) || (dimensioni < 1)) {
+				System.out.println("Il valore inserito è errato");
+			}
+		} while(dimensioni < 1 || dimensioni > 50);
+		// Numero di iterazioni del ciclo in base alle dimensioni
+		for(int i = 1; i <= dimensioni; i++ ) {
+			asterischi = asterischi + "*";
+			System.out.println(asterischi);
+		}
+		//Ciclo in cui decremento ed elimino ogni iterazione l'ultimo carattere della stringa
+		for(int i = dimensioni; i > 0; i-- ) {
+			asterischi = asterischi.substring(0, asterischi.length()-1);
+			System.out.println(asterischi);
+		}
+		input.close();
 	}
 
 }
