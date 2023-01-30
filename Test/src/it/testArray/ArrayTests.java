@@ -19,6 +19,7 @@ public class ArrayTests {
 			//Incremento valore somma ogni iterazione
 			somma += elemento;
 			System.out.println(somma);
+			input.close();
 		}
 		
 	}
