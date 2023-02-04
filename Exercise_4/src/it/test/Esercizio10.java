@@ -3,21 +3,25 @@ package it.test;
 public class Esercizio10 {
 
 	public static void main(String[] args) {
-		int sommaTotale = 27;
-		int numeroMisterioso = 0;
-		int numero1 = 0;
-		int numero2 = 0;
-		int numero3 = 0;
-		int numero4 = 0;
 		
-			for(int i = 0; i < 10; i++) {
-				int numero = i;
-				if(numero % 2 != 0) {
-					numero4 = numero;
+			for(int i = 1; i < 10; i++) {
+				for(int j = 0; j < 10; j++) {
+					for(int l = 0; l < 10; l++) {
+						for(int m = 0; m < 10; m++) {
+							if((i != j) && (i != l) && (i != m) && (j != l) && (j != m) && (l != m) ){
+								if((i == (3 * l)) && (i + j + l + m == 27)){
+									if(m % 2 != 0) {
+										System.out.println(i + "" + j + "" + l + "" + m );
+									}
+								}
+							}
+							
+						}
+					}
+					
 				}
+				
 			}
-		
-
 	}
 	
 }
