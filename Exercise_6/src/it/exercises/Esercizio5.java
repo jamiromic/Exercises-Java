@@ -13,6 +13,12 @@ public class Esercizio5 {
 		for(int i = 0; i < array.length; i++) {
 			array[i] = input.nextInt();
 		}
+		System.out.println("La somma è : " + percentualeInteri(array));
+		System.out.println("I numeri che compongono la somma sono :");
+		for(int element : array) {
+			double calcoloPercentuale = ((element * 100) / percentualeInteri(array));
+			System.out.println(element + " : che è il " + calcoloPercentuale + " % della somma");
+		}
 	}
 	
 	public static int percentualeInteri(int array[]) {
@@ -20,6 +26,7 @@ public class Esercizio5 {
 		for(int element : array) {
 			somma += element; 
 		}
+		return somma;
 	}
 
 }
