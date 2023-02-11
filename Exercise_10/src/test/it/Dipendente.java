@@ -50,6 +50,7 @@ public class Dipendente extends Persona {
 		Dipendente dipendente3 = new Dipendente("Gino","Pino",20,10000.50,2019,"12542");
 		Dipendente dipendente2 = new Dipendente("Paolo","Rossi",35,100000.50,2020,"65442");
 		Persona persona1 = new Persona("Filippo","Rossi",40);
+		@SuppressWarnings("unused")
 		Persona persona2 = new Persona("Paolo","Raggi",30);
 		System.out.println(dipendente1.equals(dipendente3));
 		System.out.println(dipendente1.getAnnoAssunzione());

@@ -24,6 +24,8 @@ public class BambinoPrecoce extends BambinoScuola{
 		michele.setSalutoBimboPrecoce();
 		System.out.println(michele.getSaluto());
 		System.out.println(michele.materia);
+		System.out.println(michele.voto);
+		
 	}
 	
 

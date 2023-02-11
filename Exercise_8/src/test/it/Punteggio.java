@@ -2,6 +2,7 @@ package test.it;
 
 public class Punteggio {
 	//Variabili di Istanza
+	@SuppressWarnings("unused")
 	private String descrizione;
 	private int punteggioMassimo;
 	private int punteggio;

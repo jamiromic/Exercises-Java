@@ -2,6 +2,7 @@ package it.test;
 
 public class LibroMastro {
 	private int venditeEffettuate;
+	@SuppressWarnings("unused")
 	private int massimoVendite;
 	private double vendite[];
 	private static double sommaVendite;
@@ -39,6 +40,7 @@ public class LibroMastro {
 	
 	public int getVenditeAlDiSopra(double v) {
 		for(double element : this.vendite) {
+			@SuppressWarnings("unused")
 			int contatore = 0;
 			if(element > v) {
 				contatore++;
@@ -56,7 +58,6 @@ public class LibroMastro {
 		libro1.aggiungiVendita(10.50);
 		System.out.println(libro1.getVenditeEffettuate());
 		System.out.println(libro1.getSommaVendite());
-		
 		
 	}
 

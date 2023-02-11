@@ -3,6 +3,7 @@ package it.exercises;
 public class Esercizio3 {
 
 	public static void main(String[] args) {
+		@SuppressWarnings("unused")
 		double arrayTrue[] = {10.10, 12.15, 15.23, 17.25, 19.30}; 
 		double arrayFalse[] = {10.10, 9.15, 15.23, 7.25, 19.30};
 		System.out.println("Il metodo restitutisce il seguente valore : " + strettamenteCrescente(arrayFalse));

@@ -12,6 +12,7 @@ public class Esercizio7 {
 		String nomeTarget = input.nextLine();
 		String telTarget = cercaNome(nomeTarget,nomi,numeriTel);
 		System.out.println(telTarget);
+		input.close();
 	}
 	
 	

@@ -27,6 +27,7 @@ public class Caratteristiche {
 				Scanner input = new Scanner(System.in);
 				System.out.println("Inserisci il punteggio");
 				this.punteggio = input.nextInt();
+				input.close();
 			}
 		}
 		

@@ -18,6 +18,7 @@ public class Esercizio5 {
 		for(int element : array) {
 			double calcoloPercentuale = ((element * 100) / percentualeInteri(array));
 			System.out.println(element + " : che è il " + calcoloPercentuale + " % della somma");
+			input.close();
 		}
 	}
 	

@@ -1,7 +1,5 @@
 package test.it;
 
-import java.util.Objects;
-
 public class Camion extends Veicolo {
 	double capacitàCarico;
 	double capacitàCaricoRimorchio;

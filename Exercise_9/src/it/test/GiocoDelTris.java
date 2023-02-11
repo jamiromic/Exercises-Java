@@ -39,6 +39,7 @@ public class GiocoDelTris {
 		 int colonnaScelta = input.nextInt();
 		 System.out.println("Posiziona la mossa sulla tua riga");
 		 int rigaScelta = input.nextInt();
+		 input.close();
 		 if((this.turno == 'X') && (this.campo[colonnaScelta][rigaScelta] == '-')) {
 			this.campo[colonnaScelta][rigaScelta] = 'X';
 		 } else if((this.turno != 'X') && (this.campo[colonnaScelta][rigaScelta] == '-')) {

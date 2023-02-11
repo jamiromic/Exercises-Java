@@ -2,7 +2,9 @@ package it.test;
 
 public class Ora {
 	//Variabili d'istanza
+	@SuppressWarnings("unused")
 	private int ora;
+	@SuppressWarnings("unused")
 	private int minuti;
 	//Costruttore
 	public Ora( ) {

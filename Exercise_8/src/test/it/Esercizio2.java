@@ -15,6 +15,7 @@ public class Esercizio2 {
 		int punteggio = input.nextInt();
 		punteggio1.setPunteggio(punteggio);
 		System.out.println(punteggio1.toString());
+		input.close();
 		
 		
 		

@@ -3,7 +3,9 @@ package it.test;
 public class Persona {
 	
 	//Variabili d'istanza
+	@SuppressWarnings("unused")
 	private String nome;
+	@SuppressWarnings("unused")
 	private int età;
 	
 	//Costruttore senza argomenti

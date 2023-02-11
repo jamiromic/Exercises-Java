@@ -19,6 +19,7 @@ public class Interi {
 		while(controllo) {
 			Scanner input = new Scanner(System.in);
 			int valoreCompreso = input.nextInt();
+			input.close();
 			if((valoreCompreso > this.valoreMinimo) && (valoreCompreso < this.valoreMassimo)) {
 				controllo = false;
 				valoreEsatto = valoreCompreso;
