@@ -6,17 +6,6 @@ public class Esercizio6 {
 		
 
 	}
-	
-	public static int[] rimuovi(int v,int[] array) {
-		int lunghezzaArray = array.length;
-		for(int element : array) {
-			if(v == element) {
-				lunghezzaArray -= 1;
-			} else {
-				
-			}
-		}
-	}
 
 }
 
