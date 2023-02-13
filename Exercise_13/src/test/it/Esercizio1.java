@@ -19,6 +19,7 @@ public class Esercizio1 {
 			int numero1 = input.nextInt();
 			System.out.println("Inserisci il secondo numero");
 			int numero2 = input.nextInt();
+			input.close();
 			
 			try {
 				testMetodo.calcolaResto(numero1,numero2);

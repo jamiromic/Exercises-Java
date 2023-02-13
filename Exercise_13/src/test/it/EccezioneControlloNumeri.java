@@ -2,6 +2,7 @@ package test.it;
 
 
 
+@SuppressWarnings("serial")
 public class EccezioneControlloNumeri extends EccezionePersonalizzata {
 	
 	public EccezioneControlloNumeri(String message) {

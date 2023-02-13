@@ -11,6 +11,7 @@ public class CollaudoEccezioni2 {
 			int minuti = input.nextInt();
 			System.out.println("Inserisci l'ora");
 			int ora = input.nextInt();
+			input.close();
 			if(minuti > 59) 
 				throw new EccezioneMinutiOltreSessanta();
 			if(ora > 12)

@@ -1,5 +1,6 @@
 package test.it;
 
+@SuppressWarnings("serial")
 public class EccezioneFasciaOrariaMancante extends Exception{
 	
 	public EccezioneFasciaOrariaMancante() {

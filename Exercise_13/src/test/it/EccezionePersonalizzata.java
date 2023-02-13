@@ -1,5 +1,6 @@
 package test.it;
 
+@SuppressWarnings("serial")
 public class EccezionePersonalizzata extends Exception{
 	
 	public EccezionePersonalizzata(String message) {

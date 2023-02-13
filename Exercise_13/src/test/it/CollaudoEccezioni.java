@@ -8,6 +8,7 @@ public class CollaudoEccezioni {
 			Scanner input = new Scanner(System.in);
 			System.out.println("Inserisci l'orario");
 			String orario = input.next();
+			input.close();
 			if(!orario.contains(":"))
 				throw new EccezionePersonalizzata("Eccezione : manca il seguente carattere ':' ");
 			if((!orario.contains("am")) && (!orario.contains("pm")))

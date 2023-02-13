@@ -1,5 +1,6 @@
 package test.it;
 
+@SuppressWarnings("serial")
 public class EccezioneMinutiOltreSessanta extends EccezionePersonalizzata {
 	
 	public EccezioneMinutiOltreSessanta() {
