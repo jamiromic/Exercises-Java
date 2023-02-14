@@ -9,7 +9,6 @@ public class CollaudoEccezioni4 {
 			System.out.println(stanza1.getContatore());
 			stanza1.rimuoviPersona();
 			System.out.println(stanza1.getContatore());
-			System.out.println(stanza1.getContatore());
 			stanza1.rimuoviPersona();
 				
 	}
