@@ -37,7 +37,7 @@ public class InsiemeDiStringhe {
 				stringaConPrefissoString = elementString;
 			}
 		}
-		return stringaConPrefissoString;
+		System.out.println(stringaConPrefissoString);
 	}
 	
 	

@@ -1,28 +1,29 @@
 package test.it;
 
-import java.util.Arrays;
+
 
 public class AnagrammiTest {
 	
 	public static boolean anagramma(int array1[], int array2[]) {
-		int arrayInvertito[] = new int[array1.length]; 
-		boolean controllo = false;
+		boolean contains = false;
+		int contatoreUguaglianze = 0;
 		for (int i = 0; i < array1.length; i++) {
-			arrayInvertito[i] = array1[array1.length - 1 - i];
+			for (int j = 0; j < array2.length; j++) {
+				if(array2[j] == array1[i]) {
+					contatoreUguaglianze++;
+				} 
+			}
+			if(contatoreUguaglianze == array2.length) {
+				contains = true;
+			}
 		}
-   	 if (array2.equals(arrayInvertito)) {
-		return controllo = true;
-	} else {
-		System.out.println(Arrays.toString(arrayInvertito));
-		System.out.println(Arrays.toString(array2));
-		return controllo = false;
-	}
-   	 
+   	 return contains;
     }
+	
 
 	public static void main(String[] args) {
-		int array1[] = {1,2,3,4};
-		int array2[] = {4,3,2,1};
+		int array1[] = {1,2,3,6,6,1};
+		int array2[] = {1,3,2,6,6,3};
 		System.out.println(AnagrammiTest.anagramma(array1,array2));
 	     
 	     
