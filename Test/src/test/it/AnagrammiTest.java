@@ -23,7 +23,7 @@ public class AnagrammiTest {
 
 	public static void main(String[] args) {
 		int array1[] = {1,2,3,6,6,1};
-		int array2[] = {1,3,2,6,6,3};
+		int array2[] = {1,3,2,6,1,3};
 		System.out.println(AnagrammiTest.anagramma(array1,array2));
 	     
 	     
